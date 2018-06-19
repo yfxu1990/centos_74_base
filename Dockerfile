@@ -1,5 +1,5 @@
-FROM scratch
-ADD centos-7.4.1708-docker.tar.xz /
+FROM centos:7.4.1708
+
 
 LABEL name="CentOS Base Image" \
     vendor="CentOS" \
