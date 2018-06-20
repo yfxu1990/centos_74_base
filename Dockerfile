@@ -7,3 +7,4 @@ LABEL name="CentOS Base Image" \
     build-date="20170911"
 
 CMD ["/bin/bash"]
+CMD ["/usr/sbin/init"]
